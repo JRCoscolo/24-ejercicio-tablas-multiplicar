@@ -1,17 +1,6 @@
-let tabla = 1
-let num = 1
-let rest = null
-
-while (tabla <= 10) {
-    while (num <= 10) {
-        rest = tabla * num
-        console.log(rest)
-        num++
+for (let tabla = 1; tabla <= 10; tabla++){
+    for (let j = 1; j <=10; j++){
+        console.log (tabla + "x" + j + "=" + (tabla*j))
     }
-    num-10
-    tabla++
+    
 }
-
-
-
-
