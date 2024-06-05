@@ -1,5 +1,12 @@
-for (let tabla = 1; tabla <= 10; tabla++) {
-    for (let numero = 1; numero <= 10; numero++) {
-        console.log(tabla + "x" + numero + "=" + (tabla * numero))
+function multiplicar(tabla, numero) {
+    var resultado = []
+    for (tabla = 1; tabla <= 10; tabla++) {
+        resultado[tabla] = []
+        for (numero = 1; numero <= 10; numero++) {
+             resultado [tabla][numero]= (tabla + "x" + numero + "=" + (tabla * numero))
+
+        }
+        return resultado
     }
 }
+
